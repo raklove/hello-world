@@ -17,7 +17,7 @@ def hello():
 def hi(username):
 	return "Halla " + username
 
-@app.route('/add/<int: x>/<int: y>/')
+@app.route('/add/<int:x>/<int:y>/')
 def sum(x,y):
 	return str( x+y)
 

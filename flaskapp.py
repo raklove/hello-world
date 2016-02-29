@@ -13,9 +13,13 @@ def hello():
         return connection.essa.users.find({}).next()['name']
 
 
-@app.route('/<username>')
+@app.route('/halla/<username>')
 def hi(username):
 	return "Halla " + username
+
+@app.route('/add/<x>/<y>')
+def sum(x,y):
+	return str( x+y)
 
 app.debug = True
 

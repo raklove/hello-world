@@ -24,7 +24,10 @@ def sum(x,y):
 @app.route('/test')
 def test():
 	return "test"
-	
+
+def hello():
+	return "just testing"
+
 	
 app.debug = True
 

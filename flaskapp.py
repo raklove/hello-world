@@ -27,9 +27,7 @@ def sum(x,y):
 def test():
 	return "test"
 
-def hello():
-	return "just testing"
-
+# deleted
 	
 app.debug = True
 

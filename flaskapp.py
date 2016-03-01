@@ -21,6 +21,11 @@ def hi(username):
 def sum(x,y):
 	return str( x+y)
 
+@app.route('/test')
+def test():
+	return "test"
+	
+	
 app.debug = True
 
 if __name__ == "__main__":

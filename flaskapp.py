@@ -12,6 +12,9 @@ def hello():
 	
         return connection.essa.users.find({}).next()['name']
 
+def check():
+	return "new"
+	
 
 @app.route('/halla/<username>')
 def hi(username):

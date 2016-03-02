@@ -12,16 +12,6 @@ def hello():
 	
         return connection.essa.users.find({}).next()['name']
 
-<<<<<<< HEAD
-#test
-
-#test for this_new_feature
-# another one
-
-=======
-#update master
->>>>>>> master
-
 @app.route('/halla/<username>')
 def hi(username):
 	return "Halla " + username
@@ -34,7 +24,7 @@ def sum(x,y):
 def test():
 	return "test"
 
-# deleted
+
 	
 app.debug = True
 

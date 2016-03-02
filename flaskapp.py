@@ -12,6 +12,7 @@ def hello():
 	
         return connection.essa.users.find({}).next()['name']
 
+#update master
 
 @app.route('/halla/<username>')
 def hi(username):
